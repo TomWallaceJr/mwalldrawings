@@ -1,13 +1,30 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+/* Custom CSS Properties for font styling
+   takes a bit to set up but once set up makes styling much quicker */
+
+:root {
+  --ff-primary: 'Amatic SC', fantasy;
+  --ff-secondary: 'Josefin' sans-serif;
+
+  --fw-red: 300;
+  --fw-bold: 900;
+
+  --clr-light: #ffffff;
+  --clr-dark: #303030;
+  --clr-accent: #f786ee;
+
+  --fs-h1: 3rem;
+  --fs-h2: 2.1rem;
+  --fs-h3: 1.25rem;
+  --fs-body: 1 rem;
+
+  --bs: 0.25em 0.25em 0.75em rgb(0, 0, 0, 0.25),
+    0.125em 0.125em 0.25em rgb(0, 0, 0, 0.15);
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body {
+  margin: 0;
+  font-family: var(--ff-primary);
+  background-color: var(--clr-dark);
+  color: var(--clr-light);
+  -webkit-font-smoothing: antialiased;
 }
