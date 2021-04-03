@@ -1,10 +1,10 @@
 import React from 'react';
-import Slideshow from '../Slideshow/Slideshow';
+import CarouselContainer from '../Carousel/CarouselContainer';
 
 export default function LandingPage() {
   return (
     <main>
-      <Slideshow />
+      <CarouselContainer />
     </main>
   );
 }
