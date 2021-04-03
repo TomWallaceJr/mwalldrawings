@@ -1,15 +1,12 @@
-import React from 'react'
-import ReactDOM from 'react-dom'
-import './index.css'
-import App from './components/App/App'
-
+import React from 'react';
+import ReactDOM from 'react-dom';
+import './index.css';
+import App from './components/App/App';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 ReactDOM.render(
   <React.StrictMode>
     <App />
-  </React.StrictMode>
-  ,
+  </React.StrictMode>,
   document.getElementById('root')
 );
-
-
