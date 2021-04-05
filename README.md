@@ -1,3 +1,3 @@
 Melissa Wallace Personal Website and Portfolio.
 
-Built using create-react-app.
+Built using React and React Bootstrap.
