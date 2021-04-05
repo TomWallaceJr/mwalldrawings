@@ -1,6 +1,5 @@
 /* Custom CSS Properties for font styling
    takes a bit to set up but once set up makes styling much quicker */
-
 :root {
   --ff-primary: 'Amatic SC', fantasy;
   --ff-secondary: 'Josefin' sans-serif;
@@ -25,6 +24,6 @@ body {
   margin: 0;
   font-family: var(--ff-primary);
   background-color: var(--clr-dark);
-  /* color: var(--clr-light); */
+  color: var(--clr-light);
   -webkit-font-smoothing: antialiased;
 }
