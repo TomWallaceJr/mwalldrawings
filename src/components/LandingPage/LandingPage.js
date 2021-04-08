@@ -1,6 +1,5 @@
 import React from 'react';
 import CarouselContainer from '../Carousel/CarouselContainer';
-import NavBar from '../NavBar/NavBar';
 import './LandingPage.css';
 
 export default function LandingPage() {

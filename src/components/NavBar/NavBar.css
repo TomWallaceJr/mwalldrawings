@@ -2,11 +2,8 @@
   margin: auto;
 }
 
-.navlink {
-}
-
 @media screen and (min-width: 575px) {
   .menu-label {
-    display: none;
+    visibility: hidden;
   }
 }

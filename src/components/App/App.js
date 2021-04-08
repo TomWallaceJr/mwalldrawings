@@ -4,6 +4,11 @@ import Header from '../Header/Header';
 import LandingPage from '../LandingPage/LandingPage';
 import NotFound from '../NotFound/NotFound';
 import NavBar from '../NavBar/NavBar';
+import AboutMe from '../AboutMe/AboutMe';
+import Pets from '../Pets/Pets';
+import People from '../People/People';
+import MainGallery from '../MainGallery/MainGallery';
+import ContactMe from '../ContactMe/ContactMe';
 
 export default function App() {
   return (
@@ -12,6 +17,11 @@ export default function App() {
       <NavBar />
       <Switch>
         <LandingPage exact path={'/'} />
+        <AboutMe path={'/aboutme'} />
+        <Pets path={'/pets'} />
+        <People path={'/people'} />
+        <MainGallery path={'/maingallery'} />
+        <ContactMe path={'/contactme'} />
         <Route component={NotFound}></Route>
       </Switch>
     </BrowserRouter>
