@@ -3,3 +3,15 @@
   height: 100px;
   background-color: grey;
 }
+
+.carousel {
+  width: 90%;
+  margin: auto;
+}
+
+.carousel-img {
+  width: 250px;
+  height: 250px;
+  display: block;
+  margin: auto;
+}
