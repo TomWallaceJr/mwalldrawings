@@ -6,13 +6,13 @@ import './LandingPage.css';
 export default function LandingPage() {
   return (
     <main>
-      <NavBar />
+      <CarouselContainer />
       <p className="p-2">
         Custom portraits of your furry friends, loved ones, or anything!
         <br />
         Contact Me for a quote today!
       </p>
-      <CarouselContainer />
+      <NavBar />
     </main>
   );
 }
