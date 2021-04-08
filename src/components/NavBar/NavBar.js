@@ -5,13 +5,34 @@ import './NavBar.css';
 
 export default function NavBar() {
   return (
-    <Navbar bg="dark" variant="dark" className="d-flex justify-content-center">
-      <Nav className="justify-content-between">
-        <Nav.Link href="#home">AboutMe</Nav.Link>
-        <Nav.Link href="#features">Pets</Nav.Link>
-        <Nav.Link href="#pricing">People</Nav.Link>
-        <Nav.Link href="#pricing">Contact</Nav.Link>
-      </Nav>
+    <Navbar
+      collapseOnSelect
+      expand="sm"
+      bg="dark"
+      variant="dark"
+      className="d-flex justify-content-center"
+    >
+      <Navbar.Brand className="menu-label">Menu</Navbar.Brand>
+      <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+      <Navbar.Collapse id="responsive-navbar-nav">
+        <Nav className="navbar">
+          <Nav.Link className="navlink" href="#home">
+            Main Gallery
+          </Nav.Link>
+          <Nav.Link className="navlink" href="#features">
+            Pets
+          </Nav.Link>
+          <Nav.Link className="navlink" href="#pricing">
+            People
+          </Nav.Link>
+          <Nav.Link className="navlink" href="#pricing">
+            About Me
+          </Nav.Link>
+          <Nav.Link className="navlink" href="#pricing">
+            Contact Me
+          </Nav.Link>
+        </Nav>
+      </Navbar.Collapse>
     </Navbar>
   );
 }

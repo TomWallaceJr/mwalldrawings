@@ -11,21 +11,21 @@ export default function CarouselContainer() {
       <Carousel.Item>
         <img className="carousel-img" src={image1} alt="First slide" />
         <Carousel.Caption>
-          <p className="label">Pet Portraits</p>
+          <h3 className="label">Pet Portraits</h3>
         </Carousel.Caption>
       </Carousel.Item>
 
       <Carousel.Item>
         <img className="carousel-img" src={image2} alt="Second slide" />
         <Carousel.Caption>
-          <p className="label">Portaits</p>
+          <h3 className="label">Portaits</h3>
         </Carousel.Caption>
       </Carousel.Item>
 
       <Carousel.Item>
         <img className="carousel-img" src={image3} alt="Third slide" />
         <Carousel.Caption>
-          <p className="label">Acrylics</p>
+          <h3 className="label">Acrylics</h3>
         </Carousel.Caption>
       </Carousel.Item>
     </Carousel>
