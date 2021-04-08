@@ -1,6 +1,7 @@
 import React from 'react';
 import Navbar from 'react-bootstrap/Navbar';
 import { Nav } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 import './NavBar.css';
 
 export default function NavBar() {
@@ -16,19 +17,19 @@ export default function NavBar() {
       <Navbar.Toggle aria-controls="responsive-navbar-nav" />
       <Navbar.Collapse id="responsive-navbar-nav">
         <Nav className="navbar">
-          <Nav.Link className="navlink" href="#home">
+          <Nav.Link className="navlink" as={Link} to="/maingallery">
             Main Gallery
           </Nav.Link>
-          <Nav.Link className="navlink" href="#features">
+          <Nav.Link className="navlink" as={Link} to="/pets">
             Pets
           </Nav.Link>
-          <Nav.Link className="navlink" href="#pricing">
+          <Nav.Link className="navlink" as={Link} to="/people">
             People
           </Nav.Link>
-          <Nav.Link className="navlink" href="#pricing">
+          <Nav.Link className="navlink" as={Link} to="/aboutme">
             About Me
           </Nav.Link>
-          <Nav.Link className="navlink" href="#pricing">
+          <Nav.Link className="navlink" as={Link} to="/contactme">
             Contact Me
           </Nav.Link>
         </Nav>
