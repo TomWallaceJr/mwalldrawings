@@ -1,10 +1,17 @@
 import React from 'react';
-import portfolio from '../../helper/portfolio';
 
-export default function Piece() {
-  return (
-    <div>
-      <h1>Piece</h1>
-    </div>
-  );
+export default class Piece extends React.Component {
+  render() {
+    // deconstruct properties for Piece
+    const { title, img, description, type } = this.props.details;
+
+    return (
+      <div className="single-piece">
+        {console.log(this)}
+        <h1>{title}</h1>
+        <img src={img} alt={title}></img>
+        <p>{description}</p>
+      </div>
+    );
+  }
 }
