@@ -19,7 +19,7 @@ const portfolio = [
   },
   {
     title: 'family',
-    imgPath: '/images/family.jpg',
+    imgPath: '/images/grandkids.jpg',
     description: 'A portrait of my son and nieces.',
     type: 'people',
     style: 'pastel',
