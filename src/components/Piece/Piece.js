@@ -3,13 +3,13 @@ import React from 'react';
 export default class Piece extends React.Component {
   render() {
     // deconstruct properties for Piece
-    const { title, img, description, type } = this.props.details;
+    const { title, imgPath, description } = this.props.details;
 
     return (
       <div className="single-piece">
-        {console.log(this)}
+        {console.log(imgPath)}
         <h1>{title}</h1>
-        <img src={img} alt={title}></img>
+        <img src={imgPath} alt={title} />
         <p>{description}</p>
       </div>
     );

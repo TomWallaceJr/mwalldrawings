@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import portfolio from '../../helpers/portfolio';
+import portfolio from '../../portfolio';
 import Piece from '../Piece/Piece';
 
 export default function MainGallery() {

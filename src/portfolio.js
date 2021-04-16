@@ -4,25 +4,22 @@
 
 const portfolio = [
   {
-    key: 1,
     title: 'Storm',
-    img: '../../images/storm.jpg',
+    imgPath: '/images/storm.jpg',
     description: 'An owl done with ',
     type: 'misc',
     style: 'acrylic',
   },
   {
-    key: 2,
     title: 'eagle',
-    img: '../../images/eagle.jpg',
+    imgPath: '/images/eagle.jpg',
     description: 'A bald eagle in the wild',
     type: 'pet',
     style: 'paint',
   },
   {
-    key: 3,
     title: 'family',
-    img: '../../images/family.jpg',
+    imgPath: '/images/family.jpg',
     description: 'A portrait of my son and nieces.',
     type: 'people',
     style: 'pastel',
