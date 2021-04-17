@@ -1,7 +1,7 @@
 /* Custom CSS Properties for font styling
    takes a bit to set up but once set up makes styling much quicker */
 :root {
-  --ff-primary: 'Amatic SC', fantasy;
+  --ff-primary: 'arial', fantasy;
   --ff-secondary: 'Josefin' sans-serif;
 
   --fw-red: 300;
