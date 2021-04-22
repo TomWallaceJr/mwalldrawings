@@ -31,7 +31,7 @@ const portfolio = [
   },
   {
     title: 'Gentle',
-    imgPath: '/images/sheep.jpg',
+    imgPath: '/images/lamb.jpg',
     description: '8" x 6" acrylic painting on stretched canvas.',
     type: 'misc',
   },
@@ -49,7 +49,7 @@ const portfolio = [
   },
   {
     title: 'Winter Life',
-    imgPath: '/images/winter.jpg',
+    imgPath: '/images/cardinal.jpg',
     description: '8" x 6" acrylic painting on stretched canvas.',
     type: 'misc',
   },
@@ -91,7 +91,7 @@ const portfolio = [
   },
   {
     title: 'Beach Day',
-    imgPath: '/images/beachday.jpg',
+    imgPath: '/images/family.jpg',
     description: '8" x 6" matted pastel drawing on paper.',
     type: 'people',
   },
