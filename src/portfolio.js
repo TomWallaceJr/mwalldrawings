@@ -54,12 +54,6 @@ const portfolio = [
     type: 'misc',
   },
   {
-    title: 'Baby',
-    imgPath: '/images/baby.jpg',
-    description: '8" x 8" acrylic painting on stretched canvas.',
-    type: 'misc',
-  },
-  {
     title: 'Serenity',
     imgPath: '/images/serenity.jpg',
     description: '10" x 8" acrylic painting on stretched canvas.',
