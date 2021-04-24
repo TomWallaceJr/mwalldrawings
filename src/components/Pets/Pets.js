@@ -12,7 +12,7 @@ export default function Pets() {
               <Piece key={key} index={key} details={portfolio[key]} />
             </div>
           );
-        }
+        } else return null;
       })}
     </>
   );

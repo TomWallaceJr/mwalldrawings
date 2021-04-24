@@ -12,7 +12,7 @@ export default function People() {
               <Piece key={key} index={key} details={portfolio[key]} />
             </div>
           );
-        }
+        } else return null;
       })}
     </>
   );
