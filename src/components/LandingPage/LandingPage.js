@@ -7,7 +7,7 @@ export default function LandingPage() {
     <main>
       <CarouselContainer />
       <p className="p-4">
-        Custom portraits of your furry friends, loved ones, or anything!
+        Custom pastel portraits of your pets or loved ones!
         <br />
         Contact Me for a quote today!
       </p>
