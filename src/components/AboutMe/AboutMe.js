@@ -1,6 +1,6 @@
 import React from 'react';
 import self from '../../images/self.jpg';
-import self2 from '../../images/melissaself.jpg';
+import self2 from '../../images/self2.jpg';
 import './AboutMe.css';
 
 export default function AboutMe() {
@@ -47,14 +47,15 @@ export default function AboutMe() {
           alt="self-portrait"
           className="w-100 h-75 mx-auto rounded-pill"
         />
-        <h3 className="text-center">About Me</h3>
-        <p>
-          I graduated from Keystone College with a B.A in visual arts. I'm
-          happily married and a mother to a wonderful little boy and three cats.
-          When I am not drawing or wrangling in a toddler, you can find me with
-          my nose in book somewhere. I love to travel and my dream vacation
-          destination would have to be Italy.
-        </p>
+        <h3 className="text-center">Fun Facts</h3>
+        <ul>
+          <li>I graduated from Keystone College with a B.A in visual arts.</li>
+          <li>I'm happily married and a mother to a wonderful little boy.</li>
+          <li>I love cats and own three of them.</li>
+          <li>I am a Whoovian!</li>
+          <li> I love to read... my favorite books are aefg</li>
+          <li>My dream vacation destination is Italy.</li>
+        </ul>
       </section>
     </div>
   );

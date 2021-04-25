@@ -9,6 +9,7 @@ import Pets from '../Pets/Pets';
 import People from '../People/People';
 import AboutMe from '../AboutMe/AboutMe';
 import ContactMe from '../ContactMe/ContactMe';
+import Footer from '../Footer/Footer';
 
 export default function App() {
   return (
@@ -24,6 +25,7 @@ export default function App() {
         <ContactMe path={'/contactme'} />
         <Route component={NotFound}></Route>
       </Switch>
+      <Footer />
     </BrowserRouter>
   );
 }
