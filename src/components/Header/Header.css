@@ -1,5 +1,5 @@
-.header-title {
-  color: var(--clr-accent);
-  text-align: center;
-  font-size: var(--fs-h1);
+.banner {
+  height: 100%;
+  width: 90%;
+  margin: 1rem;
 }

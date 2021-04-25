@@ -9,9 +9,9 @@ export default function NavBar() {
     <Navbar
       collapseOnSelect
       expand="sm"
-      bg="dark"
+      bg="black"
       variant="dark"
-      className="d-flex justify-content-center"
+      className="d-flex justify-content-center nav"
     >
       <Navbar.Brand className="menu-label">Menu</Navbar.Brand>
       <Navbar.Toggle aria-controls="responsive-navbar-nav" />
