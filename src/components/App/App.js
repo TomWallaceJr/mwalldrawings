@@ -14,18 +14,22 @@ import Footer from '../Footer/Footer';
 export default function App() {
   return (
     <BrowserRouter>
-      <Header />
-      <NavBar />
-      <Switch>
-        <LandingPage exact path={'/'} />
-        <MainGallery path={'/maingallery'} />
-        <Pets path={'/pets'} />
-        <People path={'/people'} />
-        <AboutMe path={'/aboutme'} />
-        <ContactMe path={'/contactme'} />
-        <Route component={NotFound}></Route>
-      </Switch>
-      <Footer />
+      <main className="page-container">
+        <div className="content-wrap">
+          <Header />
+          <NavBar />
+          <Switch>
+            <LandingPage exact path={'/'} />
+            <MainGallery path={'/maingallery'} />
+            <Pets path={'/pets'} />
+            <People path={'/people'} />
+            <AboutMe path={'/aboutme'} />
+            <ContactMe path={'/contactme'} />
+            <Route component={NotFound}></Route>
+          </Switch>
+        </div>
+        <Footer />
+      </main>
     </BrowserRouter>
   );
 }
