@@ -7,8 +7,8 @@ export default function AboutMe() {
   return (
     <div className="about-body">
       <section className="about-section">
-        <h1 className="text-center">Melissa Wallace</h1>
-        <h4 className="text-center"> Artist | Wife | Mother </h4>
+        <h1 className="text-center font-weight-bold">Melissa Wallace</h1>
+        <h4 className="text-center text-white"> Artist | Wife | Mother </h4>
         <img
           src={self}
           alt="self portrait"
@@ -16,7 +16,7 @@ export default function AboutMe() {
         />
       </section>
       <section className="about-section">
-        <h3 className="text-center">Artist Statement</h3>
+        <h3 className="text-center my-3">Artist Statement</h3>
         <p>
           What is art? A question everyone and no one has an answer to. We all
           perceive the world in different ways. To me art is displaying that
@@ -47,7 +47,7 @@ export default function AboutMe() {
           alt="self-portrait"
           className="w-100 h-75 mx-auto rounded-pill"
         />
-        <h3 className="text-center">Fun Facts</h3>
+        <h3 className="text-center my-3">Fun Facts</h3>
         <ul>
           <li>I graduated from Keystone College with a B.A in visual arts.</li>
           <li>I'm happily married and a mother to a wonderful little boy.</li>

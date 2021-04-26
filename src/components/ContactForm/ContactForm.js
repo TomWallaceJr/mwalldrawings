@@ -10,12 +10,16 @@ export default function ContactForm() {
   return (
     <form onSubmit={handleSubmit} className="form">
       <label htmlFor="email">Your Email Address</label>
-      <input id="email" type="email" name="email" />
+      <input id="email" type="email" name="email" className="mb-1" />
       <ValidationError prefix="Email" field="email" errors={state.errors} />
       <label htmlFor="message">Your Message</label>
       <textarea id="message" name="message" />
       <ValidationError prefix="Message" field="message" errors={state.errors} />
-      <button type="submit" disabled={state.submitting}>
+      <button
+        type="submit"
+        className="text-center w-25 my-1 align-self-center"
+        disabled={state.submitting}
+      >
         Submit
       </button>
     </form>

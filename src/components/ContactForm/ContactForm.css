@@ -4,14 +4,17 @@
   align-content: center;
   text-align: center;
   margin: 5%;
+  font-family: var(--ff-secondary);
+  font-weight: 700;
+  font-size: larger;
 }
 
 #message {
   height: 100px;
 }
 
-button {
+.btn {
   width: 100px;
-  margin: auto;
+  margin: 0;
   margin-top: 10px;
 }

@@ -7,11 +7,11 @@ import './NavBar.css';
 export default function NavBar() {
   return (
     <Navbar
-      collapseOnSelect
+      collapseOnSelect="true"
       expand="sm"
       bg="black"
       variant="dark"
-      className="d-flex justify-content-center nav"
+      className="d-flex justify-content-center nav mb-2"
     >
       <Navbar.Brand className="menu-label">Menu</Navbar.Brand>
       <Navbar.Toggle aria-controls="responsive-navbar-nav" />

@@ -5,6 +5,7 @@ import Piece from '../Piece/Piece';
 export default function Pets() {
   return (
     <>
+      <h1 className="text-center">Sample Work</h1>
       {Object.keys(portfolio).map((key) => {
         if (portfolio[key].type === 'pets') {
           return (

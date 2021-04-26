@@ -42,7 +42,7 @@ const portfolio = [
     type: 'misc',
   },
   {
-    title: 'Mother and son',
+    title: 'Mother and Son',
     imgPath: '/images/owls.jpg',
     description: '12" x 12" acrylic painting on stretched canvas.',
     type: 'misc',
