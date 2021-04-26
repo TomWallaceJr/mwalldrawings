@@ -1,0 +1,17 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  text-align: center;
+  margin: 5%;
+}
+
+#message {
+  height: 100px;
+}
+
+button {
+  width: 100px;
+  margin: auto;
+  margin-top: 10px;
+}

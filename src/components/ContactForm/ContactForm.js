@@ -1,5 +1,6 @@
 import React from 'react';
 import { useForm, ValidationError } from '@formspree/react';
+import './ContactForm.css';
 
 export default function ContactForm() {
   const [state, handleSubmit] = useForm('meqvoyrk');
@@ -7,7 +8,7 @@ export default function ContactForm() {
     return <p>Thanks for the message! I'll get back to you ASAP!</p>;
   }
   return (
-    <form onSubmit={handleSubmit}>
+    <form onSubmit={handleSubmit} className="form">
       <label htmlFor="email">Your Email Address</label>
       <input id="email" type="email" name="email" />
       <ValidationError prefix="Email" field="email" errors={state.errors} />
