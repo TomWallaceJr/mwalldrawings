@@ -7,8 +7,8 @@ export default function AboutMe() {
   return (
     <div className="about-body">
       <section className="about-section">
-        <h1 className="text-center">Hi! I'm Melissa!</h1>
-        <h4 className="text-center"> Wife | Mother | Artist</h4>
+        <h1 className="text-center">Melissa Wallace</h1>
+        <h4 className="text-center"> Artist | Wife | Mother </h4>
         <img
           src={self}
           alt="self portrait"
