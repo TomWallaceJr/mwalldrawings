@@ -3,8 +3,21 @@
   font-family: var(--ff-secondary);
 }
 
-@media screen and (min-width: 575px) {
+@media all and (min-width: 575px) {
   .menu-label {
     visibility: hidden;
+  }
+
+  .navbar-nav {
+    margin: auto;
+  }
+
+  .nav-link {
+    font-size: 25px;
+  }
+
+  .nav-link:hover {
+    font-weight: 900;
+    font-style: oblique;
   }
 }

@@ -1,5 +1,4 @@
-/* Custom CSS Properties for font styling
-   takes a bit to set up but once set up makes styling much quicker */
+/* Custom CSS Properties for font styling */
 :root {
   --ff-primary: 'Princess Sofia', cursive;
   --ff-secondary: 'Fanwood Text', serif;

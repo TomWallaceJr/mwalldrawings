@@ -11,7 +11,7 @@ export default function NavBar() {
       expand="sm"
       bg="black"
       variant="dark"
-      className="d-flex justify-content-center nav mb-2"
+      className="d-flex justify-content-center nav mb-2 nav-container"
     >
       <Navbar.Brand className="menu-label">Menu</Navbar.Brand>
       <Navbar.Toggle aria-controls="responsive-navbar-nav" />
