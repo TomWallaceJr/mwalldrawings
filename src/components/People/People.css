@@ -1,0 +1,21 @@
+@media all and (min-width: 575px) {
+  .gallery-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 800px;
+    margin: auto;
+  }
+
+  .image-container {
+    text-align: center;
+    margin: 2rem;
+  }
+
+  .main-gallery-image {
+    height: 250px;
+    width: 250px;
+    margin: auto;
+  }
+}

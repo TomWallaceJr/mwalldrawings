@@ -26,3 +26,9 @@
   font-weight: bolder;
   /* -webkit-text-stroke: 1px black; */
 }
+
+@media all and (min-width: 575px) {
+  .carousel-img {
+    width: 300px;
+  }
+}

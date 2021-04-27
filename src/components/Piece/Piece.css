@@ -1,0 +1,12 @@
+@media all and (min-width: 575px) {
+  .main-gallery-image {
+    height: 250px;
+    width: 250px;
+    margin: auto;
+  }
+
+  .image-container {
+    text-align: center;
+    margin: 2rem;
+  }
+}

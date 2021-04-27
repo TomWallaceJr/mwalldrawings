@@ -1,4 +1,5 @@
 import React from 'react';
+import './Piece.css';
 
 export default class Piece extends React.Component {
   render() {
@@ -6,10 +7,10 @@ export default class Piece extends React.Component {
     const { title, imgPath, description, type } = this.props.details;
 
     return (
-      <div className="w-100 d-flex flex-column p-2">
+      <div className="w-75 mx-auto d-flex flex-column p-2 image-container">
         {type === 'misc' ? <h1 className="mx-auto">{title}</h1> : null}
-        <img src={imgPath} alt={title} className="w-100 h-75 mx-auto" />
-        <p>{description}</p>
+        <img src={imgPath} alt={title} className="main-gallery-image" />
+        <p className="text-center">{description}</p>
       </div>
     );
   }
