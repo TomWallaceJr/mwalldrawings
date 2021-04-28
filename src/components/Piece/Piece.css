@@ -1,12 +1,22 @@
-@media all and (min-width: 575px) {
-  .main-gallery-image {
-    height: 250px;
-    width: 250px;
-    margin: auto;
-  }
+.piece-img {
+  width: 100%;
+}
 
+.image-container {
+  padding: 0.5em;
+}
+
+h1 {
+  font-family: var(--ff-secondary);
+}
+
+@media screen and (min-width: 575px) {
+  .piece-img {
+    width: fit-content;
+    height: fit-content;
+  }
   .image-container {
-    text-align: center;
-    margin: 2rem;
+    height: 20%;
+    width: 80%;
   }
 }

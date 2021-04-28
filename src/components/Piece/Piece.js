@@ -7,9 +7,9 @@ export default class Piece extends React.Component {
     const { title, imgPath, description, type } = this.props.details;
 
     return (
-      <div className="w-75 mx-auto d-flex flex-column p-2 image-container">
-        {type === 'misc' ? <h1 className="mx-auto">{title}</h1> : null}
-        <img src={imgPath} alt={title} className="main-gallery-image" />
+      <div className="image-container">
+        <img src={imgPath} alt={title} className="piece-img" />
+        {type === 'misc' ? <h1 className="text-center">{title}</h1> : null}
         <p className="text-center">{description}</p>
       </div>
     );

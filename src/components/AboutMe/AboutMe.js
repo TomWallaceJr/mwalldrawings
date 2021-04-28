@@ -53,7 +53,7 @@ export default function AboutMe() {
           <li>I'm happily married and a mother to a wonderful little boy.</li>
           <li>I love cats and own three of them.</li>
           <li>I am a Whoovian!</li>
-          <li> I love to read... my favorite books are aefg</li>
+          <li> I love to read fiction books.</li>
           <li>My dream vacation destination is Italy.</li>
         </ul>
       </section>
