@@ -1,5 +1,6 @@
 import React from 'react';
 import CarouselContainer from '../Carousel/CarouselContainer';
+import { Link } from 'react-router-dom';
 import './LandingPage.css';
 
 export default function LandingPage() {
@@ -9,7 +10,7 @@ export default function LandingPage() {
       <p className="p-4">
         Custom pastel portraits of your pets and loved ones!
         <br />
-        Contact Me for a quote today!
+        <Link to="/contactme">Contact Me</Link> for a quote today!
       </p>
     </main>
   );

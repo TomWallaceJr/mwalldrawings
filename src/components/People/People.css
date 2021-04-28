@@ -1,7 +1,6 @@
 .gallery-container {
   display: flex;
   flex-direction: column;
-  border: solid 1px red;
   width: 80%;
   margin: auto;
 }
