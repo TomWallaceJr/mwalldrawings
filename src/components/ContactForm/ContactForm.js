@@ -17,10 +17,10 @@ export default function ContactForm() {
       <ValidationError prefix="Message" field="message" errors={state.errors} />
       <button
         type="submit"
-        className="text-center w-25 my-1 align-self-center"
+        className="text-center w-100 my-1 align-self-center bg-secondary bg-gradient text-white"
         disabled={state.submitting}
       >
-        Submit
+        Get A Quote!
       </button>
     </form>
   );
