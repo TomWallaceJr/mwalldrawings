@@ -41,4 +41,39 @@ li {
     min-width: 250px;
     margin-top: 4em;
   }
+
+  .artist-statement {
+    max-width: 80%;
+    margin: auto;
+  }
+
+  .fun-facts-container {
+    display: grid;
+    width: min-content;
+    margin: auto;
+    grid-column-gap: 1em;
+    grid-template-areas: 'img title' 'img subtitle';
+    grid-template-columns: min-content max-content;
+  }
+
+  .fun-facts-title {
+    align-self: end;
+  }
+
+  .fun-facts-subtitle {
+    align-self: start;
+    grid-column: -1 / 1;
+    grid-row: 2;
+    text-align: right;
+    position: relative;
+    left: -1.5em;
+    width: calc(100% + 1.5em);
+    display: inline-block;
+  }
+
+  .fun-facts-image {
+    grid-area: img;
+    min-width: 250px;
+    margin-top: 4em;
+  }
 }

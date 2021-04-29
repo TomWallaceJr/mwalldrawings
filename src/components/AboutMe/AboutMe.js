@@ -20,7 +20,7 @@ export default function AboutMe() {
           className="w-100 h-75 mx-auto rounded-pill intro-image"
         />
       </section>
-      <section className="about-section">
+      <section className="artist-statement">
         <h3 className="text-center my-3">Artist Statement</h3>
         <p>
           What is art? A question everyone and no one has an answer to. We all
@@ -46,14 +46,9 @@ export default function AboutMe() {
         </p>
         <p> I hope that my work will bring other light or a smile.</p>
       </section>
-      <section className="about-section">
-        <img
-          src={self2}
-          alt="self-portrait"
-          className="w-100 h-75 mx-auto rounded-pill self-image"
-        />
-        <h3 className="text-center my-3">Fun Facts</h3>
-        <ul>
+      <section className="fun-facts-container">
+        <h3 className="text-center my-3 fun-facts-title">Fun Facts</h3>
+        <ul className="fun-facts-content">
           <li>I graduated from Keystone College with a B.A in visual arts.</li>
           <li>I'm happily married and a mother to a wonderful little boy.</li>
           <li>I love cats and own three of them.</li>
@@ -61,6 +56,11 @@ export default function AboutMe() {
           <li> I love to read fiction books.</li>
           <li>My dream vacation destination is Italy.</li>
         </ul>
+        <img
+          src={self2}
+          alt="self-portrait"
+          className="w-100 h-75 mx-auto rounded-pill fun-facts-image"
+        />
       </section>
     </div>
   );
