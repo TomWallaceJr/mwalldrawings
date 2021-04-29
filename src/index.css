@@ -32,7 +32,8 @@ p {
   font-size: large;
 }
 @media all and (min-width: 575px) {
-  p {
+  p,
+  li {
     font-size: x-large;
   }
 }
