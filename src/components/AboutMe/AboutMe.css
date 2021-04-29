@@ -10,3 +10,35 @@ h4 {
 li {
   font-family: var(--ff-secondary);
 }
+
+@media all and (min-width: 575px) {
+  .intro-container {
+    display: grid;
+    width: min-content;
+    margin: auto;
+    grid-column-gap: 1em;
+    grid-template-areas: 'img title' 'img subtitle';
+    grid-template-columns: min-content max-content;
+  }
+
+  .intro-title {
+    align-self: end;
+  }
+
+  .intro-subtitle {
+    align-self: start;
+    grid-column: -1 / 1;
+    grid-row: 2;
+    text-align: right;
+    position: relative;
+    left: -1.5em;
+    width: calc(100% + 1.5em);
+    display: inline-block;
+  }
+
+  .intro-image {
+    grid-area: img;
+    min-width: 250px;
+    margin-top: 4em;
+  }
+}

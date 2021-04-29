@@ -6,13 +6,18 @@ import './AboutMe.css';
 export default function AboutMe() {
   return (
     <div className="about-body">
-      <section className="about-section">
-        <h1 className="text-center font-weight-bold">Melissa Wallace</h1>
-        <h4 className="text-center text-white"> Artist | Wife | Mother </h4>
+      <section className="intro-container">
+        <h1 className="text-center font-weight-bold intro-title">
+          Melissa Wallace
+        </h1>
+        <h4 className="text-center text-white introsubtitle">
+          {' '}
+          Artist | Wife | Mother{' '}
+        </h4>
         <img
           src={self}
           alt="self portrait"
-          className="w-100 h-75 mx-auto rounded-pill"
+          className="w-100 h-75 mx-auto rounded-pill intro-image"
         />
       </section>
       <section className="about-section">
@@ -45,7 +50,7 @@ export default function AboutMe() {
         <img
           src={self2}
           alt="self-portrait"
-          className="w-100 h-75 mx-auto rounded-pill"
+          className="w-100 h-75 mx-auto rounded-pill self-image"
         />
         <h3 className="text-center my-3">Fun Facts</h3>
         <ul>
