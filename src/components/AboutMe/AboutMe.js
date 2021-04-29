@@ -21,7 +21,7 @@ export default function AboutMe() {
         />
       </section>
       <section className="artist-statement">
-        <h3 className="text-center my-3">Artist Statement</h3>
+        <h2 className="text-center my-3">Artist Statement</h2>
         <p>
           What is art? A question everyone and no one has an answer to. We all
           perceive the world in different ways. To me art is displaying that
@@ -47,7 +47,7 @@ export default function AboutMe() {
         <p> I hope that my work will bring other light or a smile.</p>
       </section>
       <section className="fun-facts-container">
-        <h3 className="text-center my-3 fun-facts-title">Fun Facts</h3>
+        <h2 className="text-center my-3 fun-facts-title">Fun Facts</h2>
         <ul className="fun-facts-content">
           <li>I graduated from Keystone College with a B.A in visual arts.</li>
           <li>I'm happily married and a mother to a wonderful little boy.</li>
