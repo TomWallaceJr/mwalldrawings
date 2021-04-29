@@ -6,7 +6,7 @@ import './Pets.css';
 export default function Pets() {
   return (
     <>
-      <h1 className="text-center">Sample Work</h1>
+      <h1 className="text-center cursive-font">Sample Work</h1>
       <section className="gallery-container">
         {Object.keys(portfolio).map((key) => {
           if (portfolio[key].type === 'pets') {

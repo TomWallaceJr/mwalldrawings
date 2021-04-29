@@ -11,7 +11,7 @@ h1 {
 
 @media screen and (min-width: 575px) {
   .image-container {
-    max-width: 300px;
+    max-width: 250px;
   }
   .piece-img {
     width: 100%;

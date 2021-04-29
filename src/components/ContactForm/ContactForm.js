@@ -5,7 +5,7 @@ import './ContactForm.css';
 export default function ContactForm() {
   const [state, handleSubmit] = useForm('meqvoyrk');
   if (state.succeeded) {
-    return <p>Thanks for the message! I'll get back to you ASAP!</p>;
+    return <p>Thanks for the message! I will get back to you ASAP!</p>;
   }
   return (
     <form onSubmit={handleSubmit} className="form">
