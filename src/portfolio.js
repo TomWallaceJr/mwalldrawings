@@ -12,6 +12,12 @@
 
 const portfolio = [
   {
+    title: 'Gabby',
+    imgPath: '/images/gabbydog.jpg',
+    description: '8" x 10" pastel drawing.',
+    type: 'pets',
+  },
+  {
     title: 'Storm',
     imgPath: '/images/storm.jpg',
     description: '12" x 12" acrylic painting on stretched canvas.',
